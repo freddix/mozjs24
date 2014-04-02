@@ -1,0 +1,14 @@
+--- python/virtualenv/virtualenv.py	2012-09-30 23:15:22.696050405 +0200
++++ python/virtualenv/virtualenv.py	2012-09-30 23:12:53.000000000 +0200
+@@ -71,7 +71,10 @@
+                     'fnmatch', 'locale', 'encodings', 'codecs',
+                     'stat', 'UserDict', 'readline', 'copy_reg', 'types',
+                     're', 'sre', 'sre_parse', 'sre_constants', 'sre_compile',
+-                    'zlib']
++                    'bz2', 'zlib', 'time', 'cStringIO', 'md5', '_hashlib', '_struct',
++                    '_collections', 'operator', 'itertools', 'math', 'binascii',
++                    '_random', '_io', '_functools', 'array', '_socket', 'select', '_multiprocessing',
++                    'fcntl', 'cPickle', 'datetime', 'syslog', '_sqlite3', 'unicodedata', 'parser']
+ 
+ REQUIRED_FILES = ['lib-dynload', 'config']
+ 
