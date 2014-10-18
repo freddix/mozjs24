@@ -1,7 +1,7 @@
 Summary:	JavaScript interpreter and libraries
 Name:		mozjs24
 Version:	24.2.0
-Release:	1
+Release:	2
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		Libraries
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/js/mozjs-%{version}.tar.bz2
@@ -38,7 +38,7 @@ Header files for JavaScript reference library.
 cd js/src
 %patch0 -p0
 
-%{__rm} -r editline
+%{__rm} -r ctypes/libffi editline
 
 %build
 cd js/src
